@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modelos - Mundo de las Motocicletas</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        .modelos {
+            background-color: #f9f9f9;
+            padding: 50px 20px;
+            text-align: center;
+        }
+
+        .modelos h2 {
+            color: #333;
+            font-size: 32px;
+            margin-bottom: 20px;
+        }
+
+        .modelos p {
+            color: #666;
+            font-size: 18px;
+            margin-bottom: 40px;
+        }
+
+        .modelo-card {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+        }
+
+        .modelo-card .card {
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+            max-width: 300px;
+            transition: transform 0.3s ease;
+        }
+
+        .modelo-card .card:hover {
+            transform: translateY(-5px);
+        }
+
+        .modelo-card .card img {
+            width: 100%;
+            height: auto;
+            border-bottom: 1px solid #eee;
+        }
+
+        .modelo-card .card-content {
+            padding: 20px;
+        }
+
+        .modelo-card .card-content h3 {
+            font-size: 24px;
+            color: #333;
+            margin-bottom: 10px;
+        }
+
+        .modelo-card .card-content p {
+            font-size: 16px;
+            color: #666;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Mundo de las Motocicletas</h1>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="modelos.html">Modelos</a></li>
+                    <li><a href="sobre.html">Sobre Nosotros</a></li>
+                    <li><a href="contacto.html">Contacto</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="modelos">
+            <h2>Explora Nuestros Modelos</h2>
+            <p>Descubre una amplia gama de modelos de motocicletas para diferentes propósitos y preferencias.</p>
+            <div class="modelo-card">
+                <div class="card">
+                    <img src="moto1.png" alt="Modelo 1">
+                    <div class="card-content">
+                        <h3>Modelo 1</h3>
+                        <p>Descripción del modelo 1</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="moto2.png" alt="Modelo 2">
+                    <div class="card-content">
+                        <h3>Modelo 2</h3>
+                        <p>Descripción del modelo 2</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="moto3.png" alt="Modelo 3">
+                    <div class="card-content">
+                        <h3>Modelo 3</h3>
+                        <p>Descripción del modelo 3</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Mundo de las Motocicletas. Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto - Mundo de las Motocicletas</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        .contacto {
+            background-color: #f3f3f3;
+            padding: 50px 20px;
+            text-align: center;
+        }
+
+        .contacto h2 {
+            color: #333;
+            font-size: 32px;
+            margin-bottom: 20px;
+        }
+
+        .contacto p {
+            color: #666;
+            font-size: 18px;
+            line-height: 1.6;
+            margin-bottom: 40px;
+        }
+
+        .contact-form {
+            max-width: 600px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+        }
+
+        .contact-form input[type="text"],
+        .contact-form input[type="email"],
+        .contact-form textarea {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 20px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+
+        .contact-form textarea {
+            height: 150px;
+        }
+
+        .contact-form input[type="submit"] {
+            background-color: #ff6600;
+            color: #fff;
+            border: none;
+            padding: 10px 20px;
+            font-size: 18px;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+
+        .contact-form input[type="submit"]:hover {
+            background-color: #e55e00;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Mundo de las Motocicletas</h1>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="modelos.html">Modelos</a></li>
+                    <li><a href="sobre.html">Sobre Nosotros</a></li>
+                    <li><a href="contacto.html">Contacto</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="contacto">
+            <h2>Contacta con Nosotros</h2>
+            <p>¿Tienes alguna pregunta o comentario? No dudes en ponerte en contacto con nuestro equipo.</p>
+            <div class="contact-form">
+                <form action="#" method="POST">
+                    <input type="text" name="nombre" placeholder="Tu Nombre" required>
+                    <input type="email" name="email" placeholder="Tu Correo Electrónico" required>
+                    <textarea name="mensaje" placeholder="Tu Mensaje" required></textarea>
+                    <input type="submit" value="Enviar Mensaje">
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Mundo de las Motocicletas. Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>

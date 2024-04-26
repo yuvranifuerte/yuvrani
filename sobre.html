@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sobre Nosotros - Mundo de las Motocicletas</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        .nosotros {
+            background-color: #f3f3f3;
+            padding: 50px 20px;
+            text-align: center;
+        }
+
+        .nosotros h2 {
+            color: #333;
+            font-size: 32px;
+            margin-bottom: 20px;
+        }
+
+        .nosotros p {
+            color: #666;
+            font-size: 18px;
+            line-height: 1.6;
+            margin-bottom: 40px;
+        }
+
+        .nosotros .team {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+            margin-top: 30px;
+        }
+
+        .nosotros .member {
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+            max-width: 300px;
+            transition: transform 0.3s ease;
+        }
+
+        .nosotros .member:hover {
+            transform: translateY(-5px);
+        }
+
+        .nosotros .member img {
+            width: 100%;
+            height: auto;
+            border-bottom: 1px solid #eee;
+        }
+
+        .nosotros .member-info {
+            padding: 20px;
+        }
+
+        .nosotros .member-info h3 {
+            font-size: 24px;
+            color: #333;
+            margin-bottom: 10px;
+        }
+
+        .nosotros .member-info p {
+            font-size: 16px;
+            color: #666;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Mundo de las Motocicletas</h1>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="modelos.html">Modelos</a></li>
+                    <li><a href="sobre.html">Sobre Nosotros</a></li>
+                    <li><a href="contacto.html">Contacto</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="nosotros">
+            <h2>Sobre Nosotros</h2>
+            <p>Somos una empresa apasionada por las motocicletas. Nuestro equipo está formado por entusiastas que comparten una profunda pasión por las dos ruedas. Estamos comprometidos con ofrecer la mejor experiencia a nuestros clientes y ayudarlos a disfrutar al máximo del mundo de las motocicletas.</p>
+            <div class="team">
+                <div class="member">
+                    <img src="yuvrani.png" alt="Miembro del Equipo 1">
+                    <div class="member-info">
+                        <h3>yuvrani pizza</h3>
+                        <p>dueño de la empresa</p>
+                    </div>
+                </div>
+                <div class="member">
+                    <img src="edgar.png" alt="Miembro del Equipo 2">
+                    <div class="member-info">
+                        <h3>Edgar moises</h3>
+                        <p>Gerente de Ventas</p>
+                    </div>
+                </div>
+                <div class="member">
+                    <img src="ja.png" alt="Miembro del Equipo 3">
+                    <div class="member-info">
+                        <h3>Carlos Gutiérrez</h3>
+                        <p>Ingeniero de Diseño</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Mundo de las Motocicletas. Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>
